@@ -1,9 +1,6 @@
 import plotly.express as px
-import seaborn as sns
-import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
-from scipy.constants import grain
 from yellowbrick.regressor import ResidualsPlot
 
 from sklearn.linear_model import LinearRegression
